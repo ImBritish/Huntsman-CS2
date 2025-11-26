@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Huntsman.vcxproj" Id="302c9614-f371-47ae-b9f4-ef83f64aeef4" />
+</Solution>
