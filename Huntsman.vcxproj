@@ -145,6 +145,7 @@
     <ClCompile Include="backend\imgui\imgui_impl_win32.cpp" />
     <ClCompile Include="backend\imgui\imgui_tables.cpp" />
     <ClCompile Include="backend\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="src\cheat\impl\aim\CRCS.cpp" />
     <ClCompile Include="src\cheat\impl\aim\CAimBot.cpp" />
     <ClCompile Include="src\cheat\impl\visual\CESP.cpp" />
     <ClCompile Include="src\cheat\CCheat.cpp" />
@@ -164,6 +165,7 @@
     <ClInclude Include="backend\imgui\imstb_rectpack.h" />
     <ClInclude Include="backend\imgui\imstb_textedit.h" />
     <ClInclude Include="backend\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\cheat\impl\aim\CRCS.h" />
     <ClInclude Include="src\cheat\impl\aim\CAimBot.h" />
     <ClInclude Include="src\cheat\config\Config.h" />
     <ClInclude Include="src\cheat\impl\visual\CESP.h" />

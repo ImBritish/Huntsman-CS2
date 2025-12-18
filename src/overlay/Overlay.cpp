@@ -149,12 +149,6 @@ void CheatOverlay::RenderFrame()
 			ImGui::EndTabBar();
 		}
 
-		//ImGui::Checkbox("Team Check", &config::visual::b_TeamCheck);
-		//ImGui::Checkbox("Fill Box", &config::visual::b_FillBox);
-		//ImGui::ColorEdit4("Box Color", config::visual::i_BoxColor);
-		//ImGui::Checkbox("Skeletons", &config::visual::b_Skeletons);
-		//ImGui::ColorEdit4("Skeleton Color", config::visual::i_SkeletonsColor);
-
 		ImGui::End();
 	}
 }

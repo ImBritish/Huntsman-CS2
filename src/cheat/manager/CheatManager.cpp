@@ -2,6 +2,7 @@
 
 #include "../impl/visual/CESP.h"
 #include "../impl/aim/CAimBot.h"
+#include "../impl/aim/CRCS.h"
 
 #include <memory>
 
@@ -17,6 +18,7 @@ void CCheatManager::LoadCheats()
 
 	// Aim
     this->RegisterCheat(std::make_unique<AimBot>());
+    this->RegisterCheat(std::make_unique<RCS>());
 }
 
 void CCheatManager::CallRenderMethod(ImDrawList* drawList)

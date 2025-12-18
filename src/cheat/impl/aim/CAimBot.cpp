@@ -63,7 +63,7 @@ void AimBot::Tick()
 
 void AimBot::HandleKey()
 {
-	if (this->IsEnabled() && g_Instance->GetMemory()->InForeground("Counter-Strike 2") && GetAsyncKeyState(VK_RBUTTON)) {
+	if (this->IsEnabled() && g_Instance->GetMemory()->InForeground("Counter-Strike 2") && GetAsyncKeyState(VK_LSHIFT)) {
 		if (this->m_ClosestEntity.x == 0 && this->m_ClosestEntity.y == 0)
 			return;
 

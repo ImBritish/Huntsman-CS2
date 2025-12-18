@@ -9,7 +9,7 @@ namespace config
 		namespace aimbot
 		{
 			inline bool b_Enabled = true;
-			inline float f_Smoothing = 60;
+			inline float f_Smoothing = 5;
 
 			inline bool b_FoV = true;
 			inline float f_Radius = 60;

@@ -133,7 +133,7 @@ void ESP::DrawSkeletons(Entity entity, ViewMatrixT viewMatrix, ImDrawList* drawL
 				if (config::visual::esp::skeleton::b_HeadCircle)
 				{
 					drawList->AddCircle(
-						{ headScreenPos.x, headScreenPos.y }, headHeight, ImColor(config::visual::esp::skeleton::f_Color[0], config::visual::esp::skeleton::f_Color[1], config::visual::esp::skeleton::f_Color[2], config::visual::esp::skeleton::f_Color[3]), 0, config::visual::esp::skeleton::f_Thickness
+						{ headScreenPos.x, headScreenPos.y }, headHeight, ImColor(config::visual::esp::skeleton::f_Color[0], config::visual::esp::skeleton::f_Color[1], config::visual::esp::skeleton::f_Color[2], config::visual::esp::skeleton::f_Color[3]), 0, config::visual::esp::skeleton::f_Thickness - 1.f
 					);
 				}
 			}
